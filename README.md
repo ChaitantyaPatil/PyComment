@@ -1,47 +1,169 @@
-# PyComment
+# 🚀 PyComment — Stylish Python Comment Blocks for VS Code
 
-**PyComment** is a VS Code extension that helps you generate stylish, designer-quality comment blocks for your Python code. Whether you need a standard header, a decorative divider, or an emoji-enhanced warning block, PyComment has you covered with over 30+ unique styles.
+<p align="center">
+  <img src="images/icon.png" width="128" />
+</p>
 
-## Features
+<p align="center">
+Generate beautiful, designer-quality comment blocks in Python instantly.
+</p>
 
-- **30+ Comment Styles**: Choose from Box, Unicode, Arrow, Emoji, Corporate, and many more styles.
-- **Context Aware**: Right-click in any Python file to insert a comment block instantly.
-- **Auto-Sizing**: Comment blocks automatically adjust their width based on your title length.
-- **Customizable**: Set your preferred default width or disable emoji styles if you prefer a cleaner look.
-- **Quick Access**: Use `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) and search for "PyComment".
-
-## Usage
-
-1. **Insert a Comment Block**:
-   - Open a Python file.
-   - Right-click and select **Insert Python Comment Block**.
-   - OR run the command **PyComment: Insert Python Comment Block** from the Command Palette.
-   - Select a style from the list.
-   - Enter your section title.
-   - The formatted comment block is inserted at your cursor!
-
-2. **Insert a Random Style**:
-   - Feeling adventurous? Run **PyComment: Random Comment Style** to get a surprise style.
-
-## Extension Settings
-
-This extension contributes the following settings:
-
-* `pycomment.defaultBlockWidth`: Sets the default width for comment blocks (default: 60).
-* `pycomment.enableEmojiStyles`: Enable/disable emoji-based comment styles (default: true).
-* `pycomment.defaultStyle`: Pre-select a specifc style ID to skip the selection menu (leave empty to always ask).
-
-## Known Issues
-
-- Multi-line titles are not yet supported (text will be centered on a single line).
-
-## Release Notes
-
-### 1.0.0
-- Initial release of PyComment.
-- Added 30+ comment styles.
-- Added support for custom block width.
+<p align="center">
+  <img src="https://img.shields.io/badge/VS%20Code-Extension-blue" />
+  <img src="https://img.shields.io/badge/Python-Supported-yellow" />
+  <img src="https://img.shields.io/badge/Styles-30%2B-success" />
+</p>
 
 ---
 
-**Enjoy coding with style!**
+## 🎬 Demo
+
+<p align="center">
+  <img src="images/demo.gif" alt="PyComment Demo" />
+</p>
+
+> Insert stylish Python comment blocks in seconds.
+
+---
+
+## ✨ Features
+
+### 🎨 30+ Designer Comment Styles
+
+Choose from:
+
+* Box blocks
+* Unicode frames (╔═══╗)
+* Arrow dividers
+* Corporate headers
+* TODO banners
+* START / END blocks
+* Emoji-enhanced styles
+* Minimal clean headers
+* Heavy decorative banners
+* Random style generator
+
+---
+
+### ⚡ Quick & Easy
+
+* Right-click in any Python file
+* Or press `Ctrl + Shift + P`
+* Select a style
+* Enter your title
+* Done 🎉
+
+---
+
+### 📏 Auto-Sizing Blocks
+
+Comment width automatically adjusts to your title length
+Or set a custom width in settings.
+
+---
+
+### 🎛 Customizable Settings
+
+Configure:
+
+* Default block width
+* Enable/disable emoji styles
+* Pre-select default style
+* Always show selection menu (optional)
+
+---
+
+## 📦 Usage
+
+### Insert a Comment Block
+
+1. Open a Python file.
+2. Right-click → **Insert Python Comment Block**
+   OR
+3. Open Command Palette:
+
+   ```
+   Ctrl + Shift + P
+   ```
+4. Search:
+
+   ```
+   PyComment: Insert Python Comment Block
+   ```
+5. Choose a style
+6. Enter title
+7. Block inserted at cursor
+
+---
+
+### 🎲 Random Style
+
+Run:
+
+```
+PyComment: Random Comment Style
+```
+
+Perfect when you want variation.
+
+---
+
+## ⚙ Extension Settings
+
+| Setting                       | Description                 | Default |
+| ----------------------------- | --------------------------- | ------- |
+| `pycomment.defaultBlockWidth` | Default comment block width | 60      |
+| `pycomment.enableEmojiStyles` | Enable emoji styles         | true    |
+| `pycomment.defaultStyle`      | Preselect style ID          | ""      |
+
+---
+
+## 🧠 Why PyComment?
+
+Clean code isn't just about logic — it's about structure.
+
+PyComment helps you:
+
+* Organize large files
+* Improve readability
+* Add professional headers
+* Structure business logic clearly
+* Make code visually clean
+
+---
+
+## 🛣 Roadmap
+
+* Multi-language support (JS, Java, C++)
+* Multi-line title support
+* Live preview before insertion
+* Custom style creator
+
+---
+
+## 🐞 Known Issues
+
+* Multi-line titles are not supported yet.
+* Very long titles may auto-expand width.
+
+---
+
+## 📌 Release Notes
+
+### 1.0.0
+
+* Initial release
+* 30+ comment styles
+* Auto-width detection
+* Settings support
+* Random style command
+
+---
+
+## 👨‍💻 Author
+
+Built with ❤️ for developers who love clean code.
+
+Chaitanya Patil Software Developer | Backend & AI Enthusiast.
+
+---
