@@ -1,0 +1,91 @@
+{
+  "name": "pycomment",
+  "displayName": "PyComment",
+  "description": "Generate stylish Python comment blocks (designer-style templates).",
+  "version": "0.1.0",
+  "publisher": "pycomment-dev",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Formatters",
+    "Other"
+  ],
+  "keywords": [
+    "python",
+    "comment",
+    "block",
+    "header",
+    "banner",
+    "style",
+    "ascii",
+    "box"
+  ],
+  "activationEvents": [
+    "onLanguage:python"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "pycomment.insertCommentBlock",
+        "title": "PyComment: Insert Python Comment Block",
+        "category": "PyComment"
+      },
+      {
+        "command": "pycomment.randomComment",
+        "title": "PyComment: Random Comment Style",
+        "category": "PyComment"
+      },
+      {
+        "command": "pycomment.favoriteStyles",
+        "title": "PyComment: Favorite Styles",
+        "category": "PyComment"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "pycomment.insertCommentBlock",
+          "when": "editorLangId == python",
+          "group": "1_modification"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "PyComment",
+      "properties": {
+        "pycomment.defaultBlockWidth": {
+          "type": "number",
+          "default": 60,
+          "description": "Default width for comment blocks (in characters)."
+        },
+        "pycomment.enableEmojiStyles": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable or disable emoji-based comment styles."
+        },
+        "pycomment.defaultStyle": {
+          "type": "string",
+          "default": "",
+          "description": "Pre-select a specific style by ID (leave empty to always ask)."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "18.x",
+    "typescript": "^5.3.3",
+    "@vscode/vsce": "^2.22.0",
+    "eslint": "^8.56.0"
+  }
+}
