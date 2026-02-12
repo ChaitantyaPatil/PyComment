@@ -3,18 +3,19 @@
   "displayName": "PyComment",
   "description": "Generate stylish Python comment blocks (designer-style templates).",
   "version": "0.1.0",
-  "publisher": "pycomment-dev",
+  "publisher": "ChaitanyaPatil",
   "engines": {
     "vscode": "^1.85.0"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/ChaitantyaPatil/PyComment.git"
-},
+    "type": "git",
+    "url": "https://github.com/ChaitantyaPatil/PyComment.git"
+  },
   "categories": [
     "Formatters",
     "Other"
   ],
+  "icon": "images/icon.ico",
   "keywords": [
     "python",
     "comment",
@@ -86,10 +87,10 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.85.0",
     "@types/node": "18.x",
-    "typescript": "^5.3.3",
-    "@vscode/vsce": "^2.22.0",
-    "eslint": "^8.56.0"
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^2.32.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
   }
 }
