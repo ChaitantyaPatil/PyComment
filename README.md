@@ -162,8 +162,8 @@ PyComment helps you:
 
 ## 👨‍💻 Author
 
-Built with ❤️ for developers who love clean code.
+- Built with ❤️ for developers who love clean code.
 
-Chaitanya Patil Software Developer | Backend & AI Enthusiast.
+- Chaitanya Patil Software Developer | Backend & AI Enthusiast.
 
 ---
